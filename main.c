@@ -13,11 +13,15 @@ int main(void){
     write(4,4);
 
     write(1,1);
+    read(4);
     write(1,10);
     write(8,8);
     write(8,80);
+    read(8);
     write(4,40);
 
+    PRINT_BAST_STATS();
     dealloc();
+
     return 0;
 }
